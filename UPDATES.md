@@ -1,4 +1,31 @@
-﻿# Development Updates
+# Development Updates
+
+## 2026-11-25 — First playable combat (Milestone 3)
+
+The first complete fight is in. You can pick up a weapon, fight an enemy that warns you before it strikes, block, parry, dodge, cast a spell, win or die, and save and load. All of it plays the same in first person and third person.
+
+- **Health, stamina and mana.** Attacks, blocks and dodges cost stamina, spells cost mana, and both refill over time.
+- **Pick things up** by looking at them and pressing E (Square on controller). You have to be close: the third-person camera can't grab things your character couldn't reach.
+- **Iron Sword:** a three-hit light combo, plus a heavy attack when you hold the button that knocks the enemy off balance.
+- **Ember Bolt:** an aimed fire spell that flies to the centre of the screen in both views, with a short cooldown.
+- **Defence:** block to take a quarter of the damage, block at the last moment to **parry** (no damage, enemy staggered), or dodge out of the way.
+- **The Hollow Thrall,** the first enemy. It chases you, glows red while it winds up an attack so you can react, and can be staggered and killed.
+- **Same fight, either view.** An automated test plays the whole fight in third person and again in first person and checks that every number comes out the same.
+- **Quick save and load** (F5 / F9, for testing) keep your position, health, equipment and what you've already picked up.
+- If you die, you come back at the start with your gear.
+
+![The Hollow Thrall winding up an attack](screenshots/2026-11-25-combat-telegraph.png)
+*The Hollow Thrall glows red while winding up its attack: the moment to block, parry or dodge.*
+
+![First person with the Iron Sword](screenshots/2026-11-25-combat-first-person.png)
+*First person: the sword in hand and the enemy's health bar after a few hits.*
+
+![Picking up the Iron Sword](screenshots/2026-11-25-pickup-prompt.png)
+*Looking at an item shows what you can do with it.*
+
+Everything you see is a temporary placeholder: the box "sword", the mannequin characters, the unarmed punch animations and the simple on-screen bars. Real art, animation and interface come later. This milestone was about making the fight work.
+
+**Next:** the first story slice: character creation, the opening cinematic, a hub in the Ashen Kingdom, and the first main and side quests.
 
 ## 2026-11-25 — Player character and dual camera (Milestone 2)
 
