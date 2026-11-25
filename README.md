@@ -1,4 +1,4 @@
-# ECLIPSE: THE LAST DOMINION
+﻿# ECLIPSE: THE LAST DOMINION
 
 *A single-player, dark-fantasy action RPG for PC, built in Unreal Engine 5.*
 
@@ -22,6 +22,10 @@ You carry a mark tied to the Meridian. Nobody knows yet whether it is a key, a w
 - **A living world.** Gathering, crafting and professions, farming and livestock, settlement building, trading, factions and diplomacy.
 - **PC settings and accessibility treated as core features.** Full remapping, controller support, subtitle options and camera-motion controls.
 - **Premium, one-time purchase.** No pay-to-win, no loot boxes, no energy timers and no mandatory microtransactions.
+
+## Screenshots
+
+Development screenshots are in [screenshots/](screenshots/) and linked from each update. Early images show test maps and placeholder art, not final visuals.
 
 ## Updates
 
